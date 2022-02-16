@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+body {
+    background-color: rgb(29, 28, 28);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin-top: 50px;
+}
+
+.container_child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-color: rgb(233, 223, 223);
+    max-width: 900px;
+
+}
+
+.container_child:hover {
+    max-width: 900px;
+    max-height: 600px;
+    
+}
+
+.container__child--cards {
+    width: 250px;
+    height: 450px;
+    box-shadow: 0 5px 10px 0;
+    /* border: 2px solid #ccc; */
+    border-radius: 0 0px 0 50px;
+    padding: 15px;
+    background-color: rgb(105, 103, 103);
+    margin: 10px;
+
+}
+
+.container__child-cards p:hover {
+    color: #000;
+}
+
+#luffy-card:hover {
+    background: linear-gradient(90deg, rgba(71,39,2,1) 0%, rgba(228,58,20,1) 0%, rgba(255,154,0,1) 86%);
+}
+
+#sanji-card:hover {
+    background: linear-gradient(90deg, rgb(233, 202, 64) 6%, rgb(212, 202, 10) 41%, rgb(153, 212, 94) 100%);
+}
+
+#zoro-card:hover {
+    background: linear-gradient(90deg, rgba(174,240,106,1) 0%, rgba(160,208,25,1) 44%, rgba(22,208,11,1) 100%, rgba(205,131,11,1) 100%);
+}
+
+.container__child--wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container__child--p {
+    margin-right: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Heebo', sans-serif;
+}
+
+.container__child--h2 {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 222, 222);
+    text-align: center;
+    outline: 1px solid black;
+}
+
+#luffy {
+    color: rgb(230, 26, 26);
+}
+
+#zoro {
+    color: rgb(18, 138, 18);
+}
+
+#sanji {
+    color: rgb(167, 167, 11);
+}
+
+.container__child--prices {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 45px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: rgb(55, 182, 55);
+    margin-left: 5px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(26, 163, 26);
+}
+
+.btn-danger {
+    background-color: rgb(228, 10, 15);
+}
+
+.btn-danger:hover {
+    background-color: rgb(151, 5, 7);
+}
