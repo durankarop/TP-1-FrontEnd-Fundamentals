@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 body {
-    background-color: rgb(29, 28, 28);
+    background: linear-gradient(90deg, red 0%, orange 25%, yellow 50%, green 75%, blue 100%);
 }
 
 .container {
@@ -9,7 +9,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    margin-top: 50px;
+    margin-top: -20px;
+}
+
+.container--h1 {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(133, 7, 7);
+    text-decoration: underline;
 }
 
 .container_child {
